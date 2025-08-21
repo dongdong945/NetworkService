@@ -1,0 +1,128 @@
+# Disable All Rules
+--disable all
+
+# Exclude Rules
+--exclude Pods
+
+# Default Rules
+
+--enable andOperator
+--enable anyObjectProtocol
+--enable applicationMain
+--enable assertionFailures
+--enable blankLineAfterImports
+--enable blankLinesAroundMark
+--enable blankLinesAtEndOfScope
+--enable blankLinesAtStartOfScope
+--enable blankLinesBetweenChainedFunctions
+--enable blankLinesBetweenScopes
+--enable braces
+--enable consecutiveBlankLines
+--enable consecutiveSpaces
+--enable consistentSwitchCaseSpacing
+--enable duplicateImports
+--enable elseOnSameLine
+--enable emptyBraces
+--enable enumNamespaces
+
+--enable extensionAccessControl
+--extensionacl on-declarations
+
+--enable genericExtensions
+--enable headerFileName
+--enable hoistAwait
+
+--enable hoistPatternLet
+--patternlet inline
+
+--enable hoistTry
+--enable indent
+--enable initCoderUnavailable
+--enable leadingDelimiters
+--enable linebreakAtEndOfFile
+--enable linebreaks
+--enable modifierOrder
+
+--enable numberFormatting
+--decimalgrouping ignore
+--binarygrouping ignore
+--octalgrouping ignore
+--hexgrouping ignore
+
+--enable opaqueGenericParameters
+--enable preferKeyPath
+--enable redundantBackticks
+--enable redundantBreak
+--enable redundantClosure
+--enable redundantExtensionACL
+--enable redundantFileprivate
+--enable redundantGet
+--enable redundantInit
+--enable redundantInternal
+--enable redundantLet
+--enable redundantLetError
+--enable redundantNilInit
+--enable redundantObjc
+--enable redundantOptionalBinding
+--enable redundantParens
+--enable redundantPattern
+--enable redundantRawValues
+--enable redundantReturn
+--enable redundantSelf
+--enable redundantStaticSelf
+--enable redundantType
+--enable redundantTypedThrows
+--enable redundantVoidReturnType
+--enable semicolons
+--enable sortDeclarations
+--enable sortImports
+--enable sortTypealiases
+--enable spaceAroundBraces
+--enable spaceAroundBrackets
+--enable spaceAroundComments
+--enable spaceAroundGenerics
+--enable spaceAroundOperators
+--enable spaceAroundParens
+--enable spaceInsideBraces
+--enable spaceInsideBrackets
+--enable spaceInsideComments
+--enable spaceInsideGenerics
+--enable spaceInsideParens
+--enable strongOutlets
+--enable strongifiedSelf
+--enable todos
+--enable trailingClosures
+
+--enable trailingCommas
+--commas inline
+
+--enable trailingSpace
+--enable typeSugar
+--enable void
+--enable wrap
+
+--enable wrapArguments
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--wrapconditions after-first
+
+--enable wrapAttributes
+--funcattributes prev-line
+--typeattributes prev-line
+--storedvarattrs prev-line
+--computedvarattrs prev-line
+
+--enable wrapLoopBodies
+--enable wrapSingleLineComments
+--enable yodaConditions
+
+# Opt-in Rules
+--enable blankLinesBetweenImports
+--enable redundantProperty
+--enable wrapEnumCases
+--enable wrapSwitchCases
+
+# Swift Version
+
+--swiftversion 6
